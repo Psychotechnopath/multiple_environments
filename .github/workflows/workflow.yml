@@ -17,7 +17,7 @@ jobs:
   lint:
     uses: ./.github/workflows/lint.yml
 
-  # Deploy to the test environment.
+  # Deploy to the test environment..
   deploy-test:
     uses: ./.github/workflows/deploy.yml
     needs: lint
